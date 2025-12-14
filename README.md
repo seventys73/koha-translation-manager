@@ -1,7 +1,10 @@
 # Koha Translation Manager
 
-Laravel 12 application that lets you ingest Koha PO files, edit translations in a database, and export updated PO files ready to deploy back to a Koha server.
-Application can pull/push .po files directily from/to koha instalation path if it lives in the same server as Koha.
+Costumizing koha translation and keeping the customization after each update could be cumbersome. This small app will help the process by importing key/values from .po files into a database, apply the custom translation, and export .po files to be replaced in the server.
+
+Application can pull/push .po files directily from/to koha instalation path if it lives in the same server as Koha and granted permission to write to Koha translations directory.
+
+This application has been built on Laravel 12 framework.
 
 ## Requirements
 - PHP >= 8.2 with ext-zip, ext-pdo, ext-fileinfo enabled
