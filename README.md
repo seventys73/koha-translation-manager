@@ -31,6 +31,9 @@ Application can pull/push .po files directily from/to koha instalation path if i
   - Each row is keyed by checksum (`context::msgid`), so edits persist across imports/syncs even if ordering changes.
 - **Data model**: `translations` table stores `file_path`, `msgid`, `msgstr`, optional `context`, and a `checksum`. `settings` table stores key/value pairs for Koha path and target language.
 
+** after uploading/pushing .po files, run "sudo koha-translate --update  <language_code>" on koha server.
+
+
 ## Production Installation
 1) Clone and enter the project  
 ```bash
