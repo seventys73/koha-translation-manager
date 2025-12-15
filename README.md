@@ -1,6 +1,6 @@
 # Koha Translation Manager
 
-Costumizing koha translation and keeping the customization after each update could be cumbersome. This small app will help the process by importing key/values from .po files into a database, apply the custom translation, and export .po files to be replaced in the server.
+Costumizing koha translations and keeping the customizations after each update could be cumbersome. This small app will help the workflow by importing keys/values from .po files into a database, apply the custom translation, and export .po files to be replaced in the server.
 
 Application can pull/push .po files directily from/to koha instalation path if it lives in the same server as Koha and granted permission to write to Koha translations directory.
 
